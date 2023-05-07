@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Comic Neue", cursive;
+
+    color: white;
+    background-color: rgb(43, 43, 43);
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    max-width: 100rem;
+}
+
+.app__title {
+    font-size: 8rem;
+}
+
+.app__input {
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+
+    width: 100%;
+    margin-bottom: 1rem;
+    height: 5rem;
+}
+
+.app__input--input {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2rem;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+}
+.app__input--button {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: white;
+    background-color: rgb(59, 59, 59);
+    border: none;
+    cursor: pointer;
+}
+
+.app__main {
+}
+
+.app__main__note {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background-color: white;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.app__main__note--text {
+    /* margin-left: 1rem; */
+    color: black;
+    font-size: 2rem;
+}
+.app__main__note--button {
+    cursor: pointer;
+    font-size: 4rem;
+    /* width: 2rem;
+    height: 2rem; */
+    /* margin-right: 1rem; */
+    background-color: transparent;
+    border: none;
+    color: black;
+}
