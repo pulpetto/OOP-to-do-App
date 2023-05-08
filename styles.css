@@ -21,11 +21,12 @@ body {
 }
 
 .app {
-    max-width: 100rem;
+    width: 60rem;
 }
 
 .app__title {
     font-size: 8rem;
+    text-align: center;
 }
 
 .app__input {
